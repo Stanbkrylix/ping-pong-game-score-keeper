@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 300px;
+}
+.img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.img p {
+    padding: 10px;
+}
+.container {
+    width: auto;
+    height: auto;
+    /* border: 2px solid #333; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.score-keeper {
+    margin-bottom: 10px;
+    text-align: start;
+    padding: 10px;
+}
+.score-keeper-p {
+    margin-bottom: 10px;
+}
+.score-keeper select {
+    padding: 5px;
+    border-radius: 20px;
+    /* color: ; */
+}
+.buttons-div {
+    display: flex;
+}
+.buttons-div button {
+    flex-grow: 1;
+    max-width: 150px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.player-one {
+    background-color: rgb(85, 151, 85);
+}
+.player-two {
+    background-color: rgb(88, 88, 248);
+}
+.reset-btn {
+    background-color: rgb(255, 78, 78);
+}
+.opacity {
+    opacity: 0.5;
+}
